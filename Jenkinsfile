@@ -21,6 +21,14 @@ pipeline {
                 }
             }
         }
+         stage("auto build increment") {
+                    steps {
+                        script {
+                            gv.buildAutoIncrement()
+
+                        }
+                    }
+                }
 
         stage("build image") {
             steps {
