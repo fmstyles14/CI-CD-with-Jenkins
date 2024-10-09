@@ -3,7 +3,7 @@
 # Demo Project:
 Dynamically Increment Application version in Jenkins Pipeline
 # Technologies used:
-Jenkins, Docker, GitLab, Git, Java, Maven
+Jenkins, Docker, Github, Git, Java, Maven
 # Project Description:
 ## Configure CI step: Increment patch version
 ## Configure CI step: Build Java application and clean old artifacts
