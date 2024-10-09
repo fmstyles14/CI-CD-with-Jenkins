@@ -56,9 +56,9 @@ pipeline {
                             sh 'git config --list'
 
 
-                            sh "git remote set-url origin https://${USER}:${PASS}github.com/fmstyles14/CI-CD-with-Jenkins.git"
+                            sh "git remote set-url origin https://${USER}:${PASS} github.com/fmstyles14/CI-CD-with-Jenkins.git"
                             sh 'git add .'
-                            sh 'git commit -m "vi:version bump"'
+                            sh 'git commit -m "ci:version bump"'
                             sh ' git push origin HEAD:main'
 
                             }
